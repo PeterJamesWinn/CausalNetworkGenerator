@@ -43,7 +43,8 @@ import causaln.network_generator as ng
 
 TestExamples/  - example scripts and outputs covering network definition, data generation and data analysis. 
                - these example scripts used for testing the auxilliary data analysis scripts 
-UnitTests/ - directory includes UnitTest script that has tests for the basic classes/methods for creating the network.
+	      
+UnitTests/ - directory includes unit_test script that has tests for the basic classes/methods for creating causal networks and network data.
  
 
 Auxilliary Scripts for data analysis
