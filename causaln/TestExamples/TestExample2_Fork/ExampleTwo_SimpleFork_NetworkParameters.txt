@@ -1,0 +1,4 @@
+['NodeName', 'CurrentValue', 'InComingConnectionFromNodes', 'InComingValues'] 
+['X', 1, 8.5, 'B', 0.5] 
+['B', 15, 15] 
+['Y', 0, 4.5, 'B', 0.3] 

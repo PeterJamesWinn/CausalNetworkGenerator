@@ -1,0 +1,5 @@
+,,Dependent,Dependent,Dependent
+,,X,B,Y
+Independent,X,1.0,0.5,1.6666666666666665
+Independent,B,2.0,1.0,3.333333333333333
+Independent,Y,0.6,0.3,1.0

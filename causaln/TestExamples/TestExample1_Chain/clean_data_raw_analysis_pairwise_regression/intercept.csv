@@ -1,0 +1,5 @@
+,,Dependent,Dependent,Dependent
+,,X,B,Y
+Independent,X,0.0,-2.0,-2.0
+Independent,B,1.0,0.0,0.0
+Independent,Y,0.5,0.0,0.0

@@ -1,0 +1,6 @@
+NodeName,Node Bias Value,CurrentValue,InComingConnectionFromNodes,InComingValues - Coupling and FunctionForm,5,6
+A,5,5.0,None,None,None,None
+B,0,3.0,A,"(0.5, <function linear at 0x0000020868A8E170>)",C,"(0.5, <function linear at 0x0000020868A8E170>)"
+Y,0,2.5,C,"(0.5, <function linear at 0x0000020868A8E170>)",X,"(0.5, <function linear at 0x0000020868A8E170>)"
+X,0,4.0,A,"(0.5, <function linear at 0x0000020868A8E170>)",B,"(0.5, <function linear at 0x0000020868A8E170>)"
+C,1,1.0,None,None,None,None

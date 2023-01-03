@@ -1,0 +1,21 @@
+
+ Start node data 
+
+name
+B
+value 
+0
+-----------------------
+
+Out connections 
+
+Y
+0.5
+-----------------------
+
+In connections 
+
+X
+0.5
+Done node data 
+
