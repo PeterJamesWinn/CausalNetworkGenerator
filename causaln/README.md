@@ -26,7 +26,16 @@ The main code
 ---------------
 network_generator.py - the main project! Allows the user to quickly define a causal network and calculate data 
                        sets based on the defined causal relationships. See TestExamples directory for examples of usage.
-                       In Brief. 1. Define one of more nodes e.g. import network_generator as ng; X = ng.Node("X", 5) creates a node called X with a bias value of 5. 
+                       In Brief, if you've used pip install to make causaln.network_generator generally available in your python tree:
+		       Define one of more nodes e.g. import causaln.network_generator as ng; X = ng.Node("X", 5) creates a node called X with a bias value of 5. 
+		       X.add_out_connection(B, 0.5) creates a connection from node X to node B, such that the value of B is,  B = 0.5 X.
+		       The network is then defined as an object containing the nodes: network1 = ng.NetworkInstance(node_list)
+		       and the values are then propagated through the network until they are self consistent. I.e. every node in the network 
+		       is visited in turn and evaluated, and, after completing a visit to every node, this is repeated again until nothing changes. 
+		       
+		       If you're just executing within the directory tree, which is what most TestExamples do, 
+		       append the directory with network_generator.py onto your PATH and then
+		       Define one of more nodes e.g. import network_generator as ng; X = ng.Node("X", 5) creates a node called X with a bias value of 5. 
 		       X.add_out_connection(B, 0.5) creates a connection from node X to node B, such that the value of B is,  B = 0.5 X.
 		       The network is then defined as an object containing the nodes: network1 = ng.NetworkInstance(node_list)
 		       and the values are then propagated through the network until they are self consistent. I.e. every node in the network 
@@ -41,9 +50,10 @@ would need to be replaced with
 import causaln.network_generator as ng 
 (assuming pip install  has been run in the CausalNetworkGeneratorPackage directory)
 
-TestExamples/  - example scripts and outputs covering network definition, data generation and data analysis. 
-               - these example scripts used for testing the auxilliary data analysis scripts 
-UnitTests/ - directory includes UnitTest script that has tests for the basic classes/methods for creating the network.
+TestExamples/  - example scripts and outputs covering network definition, data generation and data analysis.          
+               - these example scripts used for testing the auxilliary data analysis scripts.
+	      
+UnitTests/ - directory includes unit_test script that has tests for the basic classes/methods for creating causal networks and network data.
  
 
 Auxilliary Scripts for data analysis
