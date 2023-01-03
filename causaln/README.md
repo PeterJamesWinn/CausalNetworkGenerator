@@ -41,8 +41,8 @@ would need to be replaced with
 import causaln.network_generator as ng 
 (assuming pip install  has been run in the CausalNetworkGeneratorPackage directory)
 
-TestExamples/  - example scripts and outputs covering network definition, data generation and data analysis. 
-               - these example scripts used for testing the auxilliary data analysis scripts 
+TestExamples/  - example scripts and outputs covering network definition, data generation and data analysis.          
+               - these example scripts used for testing the auxilliary data analysis scripts.
 	      
 UnitTests/ - directory includes unit_test script that has tests for the basic classes/methods for creating causal networks and network data.
  
