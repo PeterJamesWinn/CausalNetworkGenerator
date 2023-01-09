@@ -5,7 +5,7 @@ Only calculating pairwise regression &  correlation; i.e. X with B; X with Y: B 
 
 
 Input Data:
-Example1_3_node_chain_NetworkValues_noisy.csv -  The data, generated with an edited version of ../TestExampleOne_CreateNetworkAndData_U1XU2BU3Y.py
+Example1_3_node_chain_NetworkValues_noisy.csv -  The data, generated with an edited version of ../TestExampleOne_CreateNetworkAndData_XBY.py 13 iterations of the integer range 1 to 15, with Gaussian noise added, to make 195 unique points. 
 
 Scripts:
 data_analysis.ipynb 
